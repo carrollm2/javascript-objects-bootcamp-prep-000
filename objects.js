@@ -1,7 +1,4 @@
-var playlist = {
-  TomPetty: "Learning to Fly"
-  Beatles: "Here Comes the Sun"
-}
+var playlist = {}
 
 function updatePlaylist(obj, key, value){
   return Object.assign({}, obj, {[key]: value})
